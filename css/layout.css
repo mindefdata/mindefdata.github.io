@@ -58,6 +58,24 @@ body {
 }
 
 
+/* added */
+.text-block {
+  position: relative;
+  bottom: 15px;
+  right: 20px;
+  /* background-color: rgba(0,0,0,0.5); */
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 11px;
+}
+
+/* Container holding the image and the text */
+.container-pic {
+  position: relative;
+}
+
+
 
 
 /* About Section */
@@ -245,18 +263,3 @@ body {
 
 /* text block on picture */
 /* Bottom right text */
-.text-block {
-  position: absolute;
-  bottom: 5px;
-  right: 20px;
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 10px;
-}
-
-/* Container holding the image and the text */
-.container-pic {
-  position: relative;
-}
